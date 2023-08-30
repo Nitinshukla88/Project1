@@ -1,0 +1,44 @@
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-top: 0px;
+    font-size: 0.8rem;
+}
+section#x::before{
+    content: "";
+    background: url(UpperBG.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+section div#Home h1{
+    font-size: 1.6rem;
+}
+section div#Home p{
+    font-size: 0.67rem;
+}
+button{
+    font-size: 0.5rem;
+}
+#it{
+    flex-direction: column;
+}
+.box{
+    margin-bottom: 28px;
+}
+#client{
+    display: flex;
+    /* height: 120px; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+section div#Ourservices h1{
+    font-size: 2rem;
+}
